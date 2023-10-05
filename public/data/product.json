@@ -1,0 +1,12 @@
+{
+    "product": [
+        {
+            "nama": "Laptop",
+            "urlPoster": "",
+            "price": "Rp. 20.000.000",
+            "stock": 10,
+            "desc": "Laptop Murah Nich"
+        }
+    ]
+    
+}

@@ -4,6 +4,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Register from './components/pages/Register';
 import Checkout from './components/pages/Checkout';
 import Pesanan from './components/pages/Pesanan';
+import ProductList from './components/layout/ProductList';
 // import './App.css'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Route path='/register' element={<Register/>}/>
       <Route path='/checkout' element={<Checkout/>}/>
       <Route path='/pesanan' element={<Pesanan/>}/>
+      <Route path='/product' element={<ProductList/>}/>
     </Routes>
   </BrowserRouter>
   
